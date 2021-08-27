@@ -3,6 +3,8 @@
     "displayName": "Kasic Language Support",
     "description": "Language support for the Kasic programming language",
     "version": "0.0.1",
+    "icon": "icon.png",
+    "publisher": "Kasic",
     "engines": {
         "vscode": "^1.59.0"
     },
