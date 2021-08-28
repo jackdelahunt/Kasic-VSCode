@@ -31,7 +31,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.kasic",
-				"match": "\\b(add|and|bool|&bool|clear|div|exit|goto|great|if|in|less|mult|not|num|&num|or|print|replace|string|&string)\\b"
+				"match": "\\b(add|and|bool|&bool|clear|div|exit|goto|great|if|in|less|mult|not|num|&num|or|print|replace|string|&string|dump|write)\\b"
 			}]
 		},
 		"strings": {
