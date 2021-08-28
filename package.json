@@ -2,7 +2,7 @@
     "name": "kasic-language-support",
     "displayName": "Kasic Language Support",
     "description": "Language support for the Kasic programming language",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "icon": "./resources/icon.png",
     "publisher": "Kasic",
     "engines": {
