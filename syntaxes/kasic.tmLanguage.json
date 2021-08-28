@@ -16,6 +16,15 @@
 		},
 		{
 			"include": "#flags"
+		},
+		{
+			"include": "#pipe"
+		},
+		{
+			"include": "#variables"
+		},
+		{
+			"include": "#constants"
 		}
 	],
 	"repository": {
@@ -50,8 +59,26 @@
 		},
 		"flags": {
 			"patterns": [{
+				"name": "keyword.control.kasic",
+				"match": "(?<!\\b)\\-[a-zA-Z0-9_]+"
+			}]
+		},
+		"pipe": {
+			"patterns": [{
+				"name": "constant.language.kasic",
+				"match": "[|]"
+			}]
+		},
+		"variables": {
+			"patterns": [{
+				"name": "variable.language.kasic",
+				"match": "(?<!\\b)\\*[a-zA-Z0-9_]+"
+			}]
+		},
+		"constants": {
+			"patterns": [{
 				"name": "entity.name.function.kasic",
-				"match": "\\b(^[-].*)\\b"
+				"match": "[0-9a-zA-Z]"
 			}]
 		}
 	},
