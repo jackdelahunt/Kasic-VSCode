@@ -2,7 +2,7 @@
     "name": "kasic-language-support",
     "displayName": "Kasic Language Support",
     "description": "Language support for the Kasic programming language",
-    "version": "0.0.1",
+    "version": "0.2.0",
     "icon": "icon.png",
     "publisher": "Kasic",
     "engines": {
@@ -12,16 +12,25 @@
         "Programming Languages"
     ],
     "contributes": {
-        "languages": [{
-            "id": "kasic",
-            "aliases": ["Kasic", "kasic"],
-            "extensions": [".kasic"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "kasic",
-            "scopeName": "source.kasic",
-            "path": "./syntaxes/kasic.tmLanguage.json"
-        }]
+        "languages": [
+            {
+                "id": "kasic",
+                "aliases": [
+                    "Kasic",
+                    "kasic"
+                ],
+                "extensions": [
+                    ".kasic"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "kasic",
+                "scopeName": "source.kasic",
+                "path": "./syntaxes/kasic.tmLanguage.json"
+            }
+        ]
     }
 }
